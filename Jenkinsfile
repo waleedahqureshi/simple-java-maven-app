@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Sanity check') {
             steps {
-                input "Do we proceed?"
+                input "Does the staging environment look ok?"
             }
         }
         stage('Test') { 
